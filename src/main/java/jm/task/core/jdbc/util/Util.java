@@ -14,7 +14,7 @@ import java.util.Properties;
 
 public class Util {
     // реализуйте настройку соеденения с БД
-    private Util() {};
+    private Util() {}
     private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
     private static final String URL = "jdbc:mysql://localhost:3306/users";
     private static final String USERNAME = "root";
